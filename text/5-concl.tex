@@ -1,0 +1,21 @@
+\section{CONCLUSÃO}
+
+Este trabalho apresentou um estudo sobre o comportamento de colchões lavadores a base de óleo vegetal. O escoamento desse tipo de fluido ocorre durante a fase de pré-cimentação de poços de petróleo. Simulamos a dinâmica em diferentes tipos de geometrias de admitindo erosões e excentricidade do revestimento (\textit{standoff}). A fim de estudar a eficiência de varrido, um parâmetro tomando como referência a configuração de poço ideal, sem rugosidade nas paredes da formação. 
+
+%Os códigos foram implementados em python e as simulações numéricas realizadas foi utilizando a biblioteca de domínio público FEniCS. O método dos elementos finitos foi aplicado para resolver as equações de Navier-Stokes. Para solucionar os sistemas lineares decorrente da discretização do problema foi utilizado o Método do
+%Gradiente Biconjugado Estabilizado (bicgstab) para o cálculo da tentativa de velocidade e pressão com o precondicionador (HYPRE\_AMG), e para a correção da velocidade foi utilizado o método cg com o precondicionador sor. Os desenhos do revestimento para construção das malhas foram feitos no AutoCad e as malhas geradas no Gmsh. Os resultados obtidos mostraram que a excentricidade causa irregularidades no escoamento do fluido além de tornar a eficiência de varrido no espaço anular de maior largura mais baixo que no espaço anular de menor largura. A erosão torna o escoamento irregular em alguns casos, e perto do fundo do poço, o efeito da rugosidade é mais evidente, causando uma ineficiência de aproximadamente 50\%. 
+
+Algumas limitações que tornam as simulações um pouco aquém da realidade tiveram de ser tratadas, tais como o nível do refinamento de malha, cuja captura dos perfis de velocidade não tiveram suavidade suficiente. Em segundo lugar, vale dizer que fluidos newtonianos não representam com exatidão o escoamento de colchões lavadores, visto que, em geral, modelos não-newtonianos, tais como o de Herschel-Bulkley são comumente utilizados. 
+
+A extensão de estudo do poço foi limitada a $1m$, além de considerarmos a hipótese de poço raso, onde variações da força gravitacional praticamente são desprezíveis. %O tempo de execução das simulações foi de apenas $10s$, o que pode ter sido pouco para que o escoamento se desenvolvesse. Entretanto, esse tempo não pode ser maior devido ao número de iterações que precisaria ser maior e consequentemente maior o tempo de execução ou poder de processamento. 
+Outro fator a ser levado em consideração é que em configurações com \emph{standoff}, geometrias bidimensionais são limitadas ao plano de simetria da configuração. Em ambas as configurações, tanto concêntricas como excêntricas, as ``vazões'' calculadas também perdem o seu sentido original, passando a medir uma espécie de ``fluxo planar''. 
+
+Apesar disso, este trabalho destaca o potencial do método dos elementos finitos para tratar de problemas relacionados à cimentação primária de poços de petróleo, bem como desafios relacionados associados à engenharia de poços.
+
+Como trabalhos futuros, listamos algumas sugestões:
+\begin{itemize}
+    \item implementar modelo não-newtoniano que represente melhor o tipo de escoamento de colchões lavadores a base de óleo vegetal;
+    \item criar geometrias tridimensionais para melhor representar a formação rochosa, a topologia das erosões, a frente de propagação do fluido, interfaces e vazões reais; 
+    \item melhorar a definição do coeficiente que mede a eficiência de varrido para levar em consideração outras características essenciais do escoamento; 
+    \item realizar simulações de fluidos com outras propriedades.
+\end{itemize}

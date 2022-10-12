@@ -1,0 +1,5 @@
+\subsection{Configurações do Resolvedor Numérico}
+
+A fim de resolver os sistemas lineares, utilizamos o \textit{método do gradiente biconjugado estabilizado} (\texttt{bicgstab}) para o cálculo da velocidade tentativa e da pressão. De forma geral, o \texttt{bicgstab} utiliza menos memória que outros métodos. Para a correção de velocidade, foi utilizado o \textit{método do gradiente conjugado} \texttt{cg}. Como pré-condicionador, utilizamos o \texttt{hypre\_amg}.
+
+%Pré-condicionadores possuem um papel fundamental na convergência dos métodos citados anteriormente. Uma vez que a taxa de convergência para a maioria dos solucionadores lineares iterativos aumenta quando o número de condição de uma matriz diminui como resultado do pré-condicionamento. Diante disso, foram selecionados pré-condicionadores adequados.

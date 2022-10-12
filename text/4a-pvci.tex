@@ -1,0 +1,18 @@
+\subsection{Posicionamento do Problema-Base}
+
+Os experimentos levam em consideração um único tipo de colchão lavador à base de óleo vegetal com viscosidade cinemática de 0,18 Pa.s e massa específica de 900 kg.m\textsuperscript{-3} \cite{ARANHA}. Para definir a velocidade de entrada, assumimos um diâmetro de 0,4 m para o bocal de saída de fluido no fundo de poço como comprimento de referência e $Re$ = 500, que mantém o escoamento dentro do regime laminar \cite{Lupyana}. A profundidade dos poços é assumida pequena, de modo que a aceleração da gravidade permanece fixada em 9.8 m.s\textsuperscript{-2}. A extensão do domínio na direção normal ao escoamento (largura) equivale a de um poço com 8,66 pol. (aproximadamente 0,22 m) de diâmetro. Na direção tangente ao escoamento, o domínio limita-se a 1 m de comprimento.
+
+Consideramos $\Omega_d$ o domínio, $\Gamma_p$ o contorno da parede da formação, $\Gamma_r$ o contorno do revestimento, $\Gamma_e$ o contorno do orifício por onde o fluido é expelido e $\Gamma_s$ o contorno do anular por onde o fluido escapa. Reescrevendo as equações de Navier-Stokes de maneira compacta, podemos definir o problema de valor de contorno e inicial da seguinte forma: determinar os campos $\boldsymbol{u}$ e $p$ no espaço anular, tais que:
+\begin{eqnarray}
+    \label{eq:problema-abstrato}
+    		\mathcal{L}[\boldsymbol{u},p;\rho,\mu,\boldsymbol{g}] &=& \boldsymbol{0} \\
+    		\nabla \cdot \boldsymbol{u} &=& 0,
+\end{eqnarray}
+sujeito às condições de contorno e inicial
+      \begin{eqnarray}
+    \label{eq:problema-abstrato}
+    		\boldsymbol{u}|_{\Gamma_{p}} &=& \boldsymbol{0} \\
+    		%\boldsymbol{n} \cdot \nabla p|_{\Gamma_{s}} &=& 0 \\
+            p|_{\Gamma_{s}} &=& 0 \\
+    		\boldsymbol{u}|_{\Gamma_{e}} &=& \boldsymbol{u_0}.
+    \end{eqnarray}

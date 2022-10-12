@@ -1,0 +1,71 @@
+\documentclass{tcc}
+
+% MACROS E DEFINIÇÕES
+\newcommand{\Red}[1]{{\color{red}#1}} 
+\newcommand{\Mag}[1]{{\color{magenta}#1}} 
+
+\numberwithin{equation}{section}
+\definecolor{lightgray}{rgb}{0.95,0.95,0.95}
+
+%% --- LISTINGS
+\lstset{language=python,
+	%basicstyle=\ttfamily,
+	backgroundcolor=\color{lightgray},
+	numbers=left,
+	numberstyle=\footnotesize,
+	frame=trbl,
+	frameround=tttt,
+	showstringspaces=false,
+	tabsize=3,
+}
+%\lstset{frame=lines}
+%\lstset{label={lst:code_direct}}
+%\lstset{basicstyle=\footnotesize}
+
+\begin{document}
+
+%% --- SETUP 
+\input{tcc-dados}
+
+%% --- ELEMENTOS PRÉ-TEXTUAIS 
+
+\input{pretext/0a-capa.tex}
+% ESTA PÁGINA EM BRANCO É NECESSÁRIA? SE SIM, DESCOMENTE.
+%\afterpage{\blankpage \addtocounter{page}{1}} %addtocounter incrementa numero da pagina ja que blankpage nao entra no contador%
+\input{pretext/0b-rosto.tex}
+\input{pretext/0c-catalog.tex}
+\input{pretext/0d-aprovacao.tex}
+%\input{pretext/0e-dedicatoria.tex}
+%\input{pretext/0f-agradecimentos.tex}
+\input{pretext/0g-resumo.tex}
+\input{pretext/0h-abstract.tex}
+\input{pretext/0i-lista-figs.tex}
+\input{pretext/0j-lista-tabs.tex}
+%\input{pretext/0k-abrevs.tex}
+\input{pretext/0l-sumario.tex}
+
+%% --- ELEMENTOS TEXTUAIS 
+
+\input{text/1-intro.tex} % Revisado
+\input{text/2-revbib.tex} % Revisado
+\input{text/3-metod.tex}
+\input{text/4-results.tex}
+\input{text/5-concl.tex}
+
+%% --- ELEMENTOS PÓS-TEXTUAIS 
+
+\renewcommand{\refname}{\flushleft REFERÊNCIAS} %Centraliza nome Referencias%
+\addcontentsline{toc}{section}{REFERÊNCIAS} %adiciona referencias ao sumario
+\begin{thebibliography}{99}
+\input{refs.tex}
+\end{thebibliography}
+
+%% ----- BIBTEX DATABASE: PARA USO DE ARQUIVO .BIB
+%\def\bibname{REFERÊNCIAS}
+%\bibliographystyle{abnt-num}
+%\bibliography{refs.bib}
+
+
+
+\input{postext/app}
+\end{document}

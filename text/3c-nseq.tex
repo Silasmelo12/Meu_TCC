@@ -1,0 +1,33 @@
+\subsection{Equações de Navier Stokes}
+\label{subsec:nseq}
+
+As equações de Navier Stokes (ENS) descrevem o movimento de fluidos viscosos. Estas equações foram derivadas originalmente na década de 1840 por Claude-Louis Navier e George Gabriel Stokes com base nas leis de conservação de massa, momento linear e energia. Elas permitem determinar os campos de pressão e de velocidade em um determinado escoamento \cite{WOLFRAM}. As ENS podem ser utilizadas para modelar correntes oceânicas, escoamentos em dutos, escoamentos externos sobre aerofólios e aeronaves, hemodinâmica, entre outras aplicações \cite{Elias}.
+
+Assumiremos neste trabalho que os fluidos escoantes são incompressíveis. Assim, consideraremos a equação da quantidade de movimento escritas na seguinte forma:
+\begin{eqnarray}
+	\rho \left( \dfrac{\partial \boldsymbol{u}}{\partial t} + \boldsymbol{u} \cdot \nabla \boldsymbol{u} \right) + 
+	\nabla \cdot \boldsymbol{\sigma} + \boldsymbol{f} &=&  \boldsymbol{0} \label{eq:NavierStokes} \\ 
+		\nabla \cdot \boldsymbol{u} &=& 0 \label{eq:NavierStokesB},
+\end{eqnarray}
+onde $\rho$ é a massa específica, $\boldsymbol{u}$ a velocidade, $t$ o tempo, $p$ a pressão e $\boldsymbol{f}$ a força de corpo por unidade de volume, a ser especificada adiante. Chamado de tensor de tensões de Cauchy, $\boldsymbol{\sigma}$ relaciona-se à pressão pela equação constitutiva para fluidos newtonianos dada por
+\begin{equation}
+\label{eq:sigma}
+	\boldsymbol{\sigma} = 2 \mu \left ( \boldsymbol{u} \right ) - p\boldsymbol{I},
+\end{equation}
+onde $\boldsymbol{I}$ é o tensor identidade. As tensões cisalhantes e a taxa de deformação em fluidos newtonianos
+relacionam-se de modo linear pela constante de proporcionalidade $\mu$, a viscosidade cinemática. O tensor de deformação $\boldsymbol{\epsilon}$ é dado por \cite{MOLON}:
+\begin{equation}
+\label{eq:Epsilon}
+	\boldsymbol{\epsilon} = \frac{1}{2}(\nabla \boldsymbol{u} + \nabla \boldsymbol{u}^{T}).
+\end{equation}
+
+Tratando a força de corpo como a gravidade, isto é, $\boldsymbol{f} = \rho \boldsymbol{g}$, a substituição das Eqs. \eqref{eq:sigma} e \eqref{eq:Epsilon} na Eq. \eqref{eq:NavierStokes} permite-nos reescrever a equação da quantidade de movimentos como as ENS:
+\begin{eqnarray}
+	\rho \left( \dfrac{\partial \boldsymbol{u}}{\partial t} + \boldsymbol{u} \cdot \nabla \boldsymbol{u} \right) -
+	\nabla p +
+	\nabla \cdot 
+	[ \mu ( \nabla \boldsymbol{u} + \nabla \boldsymbol{u}^{T}) ] 
+	+ \rho \boldsymbol{g} &=& \boldsymbol{0} \label{eq:NavierStokes} \\ 
+	\nabla \cdot \boldsymbol{u} &=& 0,
+\end{eqnarray}
+tendo em vista que $\nabla \cdot p\boldsymbol{I} = \nabla p$.

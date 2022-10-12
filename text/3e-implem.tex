@@ -1,0 +1,197 @@
+\subsubsection{Implementação Computacional}
+
+\lstset{caption={Implementação computacional}}
+
+A implementação computacional das equações discretas foi realizada na linguagem Python. A seguir, inserimos porções compactas do código aplicado. A versão completa está disponível no Apêndice. Após importar todas as bibliotecas necessárias, importar a malha que foi gerada via Gmsh como .msh como mostra o cód no apendice. As funções \texttt{create\_mesh} e \texttt{mvc\_mf}, servem para extrair os grupos físicos definidos no Gmsh, para identificação direta pelo FEniCS.
+\begin{comment}
+
+    \begin{lstlisting}[title=\phantom{}]
+    def create_mesh(mesh, cell_type, prune_z=False):
+        cells = mesh.get_cells_type(cell_type)
+        cell_data = mesh.get_cell_data("gmsh:physical", cell_type)
+        out_mesh = mio.Mesh(points=mesh.points, 
+                   cells= {cell_type: cells},
+                   cell_data={"name_to_read": [cell_data]})
+        if prune_z:
+            out_mesh.prune_z_0()
+        return out_mesh
+    
+    def mvc_mf(mesh_from_file):
+        line_mesh = create_mesh(mesh_from_file, 
+                    "line", prune_z=True)
+        mio.write("facet_mesh.xdmf", line_mesh)
+        triangle_mesh = create_mesh(mesh_from_file,"triangle",
+                        prune_z=True)
+        mio.write("mesh.xdmf", triangle_mesh)
+        mesh = Mesh()
+    
+        with XDMFFile("mesh.xdmf") as infile:
+            infile.read(mesh)
+            mvc = MeshValueCollection("size_t", mesh, 2)
+    
+        with XDMFFile("facet_mesh.xdmf") as infile:
+            infile.read(mvc, "name_to_read")
+            mf = MeshFunction("size_t", mesh, mvc)
+        
+        return mesh, mvc, mf
+    \end{lstlisting}
+    
+\end{comment}
+
+A partir da malha importada e da identificação dos grupos físicos, as propriedades de fluido, os parâmetros de simulação, tempo, quantidade de iteração, assim como as condições de contorno e iniciais podem ser definidos na função \texttt{dados\_entrada}.
+\begin{comment}
+
+\begin{lstlisting}[title=\phantom{}]
+def dados_entrada(type_fluido):
+    dados_problema = {'diametro_saida':40,
+                      'Tempo': 10,
+                      'grav':-9.85,
+                      'num_steps': 40000}
+                      
+    dados_problema['velocidade_fluido_inflowX'] = 0
+    dados_problema['velocidade_fluido_inflowY'] =
+    -1000*(500*0.0381)/(900*0.04)
+    dados_problema['dt'] =
+    int(dados_problema['Tempo'])/int(dados_problema['num_steps'])
+    
+    colchao_lavador = {
+        'nome': "colchao_lavador",
+        'viscosidade': 38.1,
+        'densidade': 0.000900
+    }
+
+    dados_fluidos = [colchao_lavador]
+    return dados_fluidos[type_fluido - 1], dados_problema
+\end{lstlisting}
+    
+\end{comment}
+
+A função \texttt{def} descreve o modelo matemático das equações de Navier-Stokes. As linhas 5-7 definem a velocidade inicial e as linhas 9-14 as condições de contorno. %Como há uma condição de não deslizamento nas paredes da formação e no revestimento, então a velocidade é definida como nula na linha 12. Na linha 11 é definido a pressão no contorno da saída como nula.
+As linhas 35-39 referem-se às equações \ref{eq:Epsilon} e \ref{eq:sigma}, que representam, respectivamente, o tensor de tensões de Cauchy e o tensor de deformação. 
+
+Depois de importar a biblioteca, definir os dados do problema, importar a malha, informar as condições de contorno, implementa-se o método IPCS. As linhas 41-48 referem-se às equações \ref{eq:velocidadetentativa}, \ref{eq:pressure} e \ref{eq:corrected_velocity}. As linhas 50-52 realizam a correção da pressão. Com a pressão corrigida, calcula-se a velocidade corrigida.
+
+\begin{lstlisting}[title=\phantom{}]
+def modelo(mesh, dados_problema,dados_fluidos, cfl, mf):
+    V = VectorFunctionSpace(mesh, 'P', 2) 
+    Q = FunctionSpace(mesh, 'P', 1)  
+    
+    inflow_profile = ('0' + 
+    str(dados_problema['velocidade_fluido_inflowX']), '0' + 
+    str(dados_problema['velocidade_fluido_inflowY']))
+    
+    bcu_inflow = DirichletBC(V, Expression(inflow_profile, 
+    degree=2), mf, 1)
+    bcp_outflow = DirichletBC(Q, Constant(0), mf, 2)
+    bcp_paredes = DirichletBC(V, Constant((0, 0)), mf, 3)
+    bcu = [bcu_inflow, bcp_paredes]  
+    bcp = [bcp_outflow]  
+    
+    u = TrialFunction(V)
+    v = TestFunction(V)
+    p = TrialFunction(Q)
+    q = TestFunction(Q)
+    
+    u0 = Function(V)
+    u_ = Function(V)
+    p_n = Function(Q)
+    p_ = Function(Q)
+    
+    U = 0.5 * (u0 + u)
+    n = FacetNormal(mesh)
+    f = Constant((0, dados_problema['grav']))
+    k = Constant(cfl['dt'])
+    
+    viscosidadeCinematica =
+        Constant(dados_fluidos['viscosidade'])
+    massa_especifica =
+        Constant(dados_fluidos['massa_especifica'])
+    beta = 1
+    
+    def epsilon(u):
+        return (1 / 2) * (nabla_grad(u) + nabla_grad(u).T)
+    
+    def sigma(u, p, viscosidadeCinematica):
+        return 2 * viscosidadeCinematica \
+        * epsilon(u) - p * Identity(len(u))
+    
+    F1 = (1.0 / k) * inner(u - u0, v) * df.dx \
+        + inner(grad(u0) * u0, v) * df.dx \
+        + inner(sigma(U, p_n, viscosidadeCinematica), 
+        epsilon(v)) * df.dx \
+        + inner(p_n * n, 
+        v) * df.ds \
+        - beta * viscosidadeCinematica * inner(grad(U).T * n, 
+        v) * df.ds \
+        - viscosidadeCinematica * inner(f, v) * df.dx
+    a1 = lhs(F1)
+    L1 = rhs(F1)
+    
+    a2 = inner(grad(p), grad(q)) * df.dx
+    L2 = inner(grad(p_n), grad(q)) * df.dx \
+        - (1.0 / k) * div(u_) * q * df.dx
+    
+    a3 = inner(u, v) * df.dx
+    L3 = inner(u_, v) * df.dx \
+        - k * inner(grad(p_ - p_n), v) * df.dx
+    
+    A1 = assemble(a1)
+    A2 = assemble(a2)
+    A3 = assemble(a3)
+    
+    [bc.apply(A1) for bc in bcu]
+    [bc.apply(A2) for bc in bcp]
+    
+    modelo = {'A1': A1,
+    	'A2': A2,
+    	'A3': A3,
+    	'bcu': bcu,
+    	'bcp': bcp,
+    	'cfl': cfl,
+    	'L1': L1,
+    	'L2': L2,
+    	'L3': L3,
+    	'u_': u_,
+    	'p_': p_,
+    	'u0': u0,
+    	'p_n': p_n}
+    
+    return modelo
+\end{lstlisting}
+
+A função \texttt{solucao} soluciona as equações para cada passo de tempo dentro de uma laço de repetição. As linhas 4-6 aplicam as condições iniciais de contorno às matrizes. Nas linhas 8-19, resolve-se o método IPCS.
+
+\begin{lstlisting}[title=\phantom{}]
+
+def solucao(modelo):
+    passos = 0
+    t = 0
+    for n in tqdm(range(modelo['cfl']['num_steps'])):
+        [bc.apply(modelo['A1']) for bc in modelo['bcu']]
+        [bc.apply(modelo['A2']) for bc in modelo['bcp']]
+        
+        b1 = assemble(modelo['L1'])
+        [bc.apply(modelo['A1'], b1) for bc in modelo['bcu']]
+        solve(modelo['A1'], modelo['u_'].vector(), b1, 'bicgstab',
+        'hypre_amg')
+        
+        b2 = assemble(modelo['L2'])
+        [bc.apply(b2) for bc in modelo['bcp']]
+        solve(modelo['A2'], modelo['p_'].vector(), b2, 'bicgstab',
+        'hypre_amg')
+        
+        b3 = assemble(modelo['L3'])
+        solve(modelo['A3'], modelo['u_'].vector(), b3, 'cg', 'sor')
+        
+        if n \% 200 == 0:
+            pvd_file = File('velocidade-{0}.pvd'.format(passos))
+            pvd_file << modelo['u_']
+            pvd_file = File('pressao-{0}.pvd'.format(passos))
+            pvd_file << modelo['p_']
+            passos = passos + 1
+        
+        modelo['u0'].assign(modelo['u_'])
+        modelo['p_n'].assign(modelo['p_'])
+        t = t + modelo['cfl']['dt']
+    return modelo
+\end{lstlisting}

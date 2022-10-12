@@ -1,0 +1,1845 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.12)  12 OCT 2022 13:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./tcc.tex
+(tcc.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04> (tcc.cls
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count193
+\lst@gtempboxa=\box51
+\lst@token=\toks17
+\lst@length=\count194
+\lst@currlwidth=\dimen141
+\lst@column=\count195
+\lst@pos=\count196
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count197
+\lst@lineno=\count198
+\lst@maxwidth=\dimen144
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count199
+\lst@skipnumbers=\count266
+\lst@framebox=\box52
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count267
+\U@D=\dimen145
+\l@unhyphenated=\language79
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count268
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugue
+se.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.l
+df
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+))
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel
+-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box53
+\beforetitleunit=\skip49
+\aftertitleunit=\skip50
+\ttl@plus=\dimen146
+\ttl@minus=\dimen147
+\ttl@toksa=\toks20
+\titlewidth=\dimen148
+\titlewidthlast=\dimen149
+\titlewidthfirst=\dimen150
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
+ltx))
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip51
+\thanksmargin=\skip52
+\droptitle=\skip53
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count269
+\float@exts=\toks21
+\float@box=\box54
+\@float@everytoks=\toks22
+\@floatcapt=\box55
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks23
+\AP@partial=\box56
+\AP@footins=\box57
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen151
+\ar@mcellbox=\box58
+\extrarowheight=\dimen152
+\NC@list=\toks24
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box59
+)
+\TX@col@width=\dimen153
+\TX@old@table=\dimen154
+\TX@old@col=\dimen155
+\TX@target=\dimen156
+\TX@delta=\dimen157
+\TX@cols=\count270
+\TX@ftn=\toks25
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip56
+\f@nch@O@elh=\skip57
+\f@nch@O@erh=\skip58
+\f@nch@O@olh=\skip59
+\f@nch@O@orh=\skip60
+\f@nch@O@elf=\skip61
+\f@nch@O@erf=\skip62
+\f@nch@O@olf=\skip63
+\f@nch@O@orf=\skip64
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen158
+))
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen159
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen160
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count276
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip17
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
+\tag@help=\toks27
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
+\andhelp@=\toks28
+\eqnshift@=\dimen161
+\alignsep@=\dimen162
+\tagshift@=\dimen163
+\tagwidth@=\dimen164
+\totwidth@=\dimen165
+\lineht@=\dimen166
+\@envbody=\toks29
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/lmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count283
+)
+\@linkdim=\dimen167
+\Hy@linkcounter=\count284
+\Hy@pagecounter=\count285
+ (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count286
+ (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4408.
+\c@Hy@tempcnt=\count287
+LaTeX Info: Redefining \url on input line 4746.
+\XeTeXLinkMargin=\dimen168
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count288
+\Field@Width=\dimen169
+\Fld@charsize=\dimen170
+Package hyperref Info: Hyper figures OFF on input line 6024.
+Package hyperref Info: Link nesting OFF on input line 6029.
+Package hyperref Info: Hyper index ON on input line 6032.
+Package hyperref Info: backreferencing OFF on input line 6039.
+Package hyperref Info: Link coloring OFF on input line 6044.
+Package hyperref Info: Link coloring with OCG OFF on input line 6049.
+Package hyperref Info: PDF/A mode OFF on input line 6054.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count289
+\c@Item=\count290
+\c@Hfootnote=\count291
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count292
+\c@bookmark@seq@number=\count293
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip68
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen171
+\captionmargin=\dimen172
+\caption@leftmargin=\dimen173
+\caption@rightmargin=\dimen174
+\caption@width=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count296
+\c@subtable=\count297
+) (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen179
+\WF@size=\dimen180
+\c@WF@wrappedlines=\count298
+\WF@box=\box62
+\WF@everypar=\toks31
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count299
+)
+\MT@toks=\toks32
+\MT@tempbox=\box63
+\MT@count=\count300
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen181
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count301
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip69
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+))
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count302
+\Gm@cntv=\count303
+\c@Gm@tempcnt=\count304
+\Gm@bindingoffset=\dimen182
+\Gm@wd@mp=\dimen183
+\Gm@odd@mp=\dimen184
+\Gm@even@mp=\dimen185
+\Gm@layoutwidth=\dimen186
+\Gm@layoutheight=\dimen187
+\Gm@layouthoffset=\dimen188
+\Gm@layoutvoffset=\dimen189
+\Gm@dimlist=\toks33
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+) (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 25
+.
+ (C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box64
+) (tcc.aux
+
+LaTeX Warning: Label `eq:NavierStokes' multiply defined.
+
+
+LaTeX Warning: Label `eq:problema-abstrato' multiply defined.
+
+
+LaTeX Warning: Label `fig:perfil_velocidade_rugoso_saida_paraview_10s' multiply
+ defined.
+
+)
+\openout1 = `tcc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count306
+\scratchdimen=\dimen190
+\scratchbox=\box65
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen191
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks35
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count312
+Package hyperref Info: Link coloring OFF on input line 25.
+ (tcc.out) (tcc.out)
+\@outlinefile=\write4
+\openout4 = `tcc.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 25.
+Package microtype Info: Applying patch `item' on input line 25.
+Package microtype Info: Applying patch `toc' on input line 25.
+Package microtype Info: Applying patch `eqnum' on input line 25.
+Package microtype Info: Applying patch `footnote' on input line 25.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 25.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.27806pt, 455.13701pt, 57.0928pt)
+* v-part:(T,H,B)=(85.27806pt, 702.67598pt, 57.0928pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.13701pt
+* \textheight=702.67598pt
+* \oddsidemargin=13.00807pt
+* \evensidemargin=13.00807pt
+* \topmargin=-23.99193pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(tcc-dados.tex) (pretext/0a-capa.tex
+<img/logo-ci.png, id=98, 35.56595pt x 35.56595pt>
+File: img/logo-ci.png Graphic file (type png)
+<use img/logo-ci.png>
+Package pdftex.def Info: img/logo-ci.png  used on input line 17.
+(pdftex.def)             Requested size: 85.35826pt x 85.36597pt.
+) (pretext/0b-rosto.tex [1
+
+{C:/Users/silas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logo-c
+i.png>]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+3.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+3.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+13.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+13.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 13.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 13.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+))
+(pretext/0c-catalog.tex [2]) (pretext/0d-aprovacao.tex [3]
+File: img/logo-ci.png Graphic file (type png)
+<use img/logo-ci.png>
+Package pdftex.def Info: img/logo-ci.png  used on input line 5.
+(pdftex.def)             Requested size: 56.9055pt x 56.91046pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
+
+ []
+
+) (pretext/0g-resumo.tex [4]) (pretext/0h-abstract.tex [5])
+(pretext/0i-lista-figs.tex [6] (tcc.lof)
+\tf@lof=\write5
+\openout5 = `tcc.lof'.
+
+) (pretext/0j-lista-tabs.tex [7]
+(tcc.lot)
+\tf@lot=\write6
+\openout6 = `tcc.lot'.
+
+) (pretext/0l-sumario.tex [8] (tcc.toc)
+\tf@toc=\write7
+\openout7 = `tcc.toc'.
+
+ [9]) (text/1-intro.tex
+
+LaTeX Warning: Citation `Max' on page 10 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Danilo' on page 10 undefined on input line 5.
+
+
+LaTeX Warning: Citation `Petrobras' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Escudier' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation `ARANHA' on page 10 undefined on input line 13.
+
+[10]) (text/2-revbib.tex [11]
+
+LaTeX Warning: Citation `Pordeus' on page 12 undefined on input line 7.
+
+
+LaTeX Warning: Citation `Pordeus' on page 12 undefined on input line 10.
+
+
+LaTeX Warning: Citation `Pordeus' on page 12 undefined on input line 13.
+
+[12]
+<img/remocao_fluido.png, id=176, 699.61375pt x 776.9025pt>
+File: img/remocao_fluido.png Graphic file (type png)
+<use img/remocao_fluido.png>
+Package pdftex.def Info: img/remocao_fluido.png  used on input line 26.
+(pdftex.def)             Requested size: 244.86848pt x 271.91994pt.
+ [13 <./img/remocao_fluido.png>]
+
+LaTeX Warning: Citation `Hanieh' on page 14 undefined on input line 41.
+
+<img/Standoff1.png, id=190, 267.24844pt x 265.74281pt>
+File: img/Standoff1.png Graphic file (type png)
+<use img/Standoff1.png>
+Package pdftex.def Info: img/Standoff1.png  used on input line 44.
+(pdftex.def)             Requested size: 187.07263pt x 186.01869pt.
+
+LaTeX Warning: Citation `VADIM' on page 14 undefined on input line 48.
+
+<img/centralizadores_standoff.png, id=192, 726.3135pt x 308.5929pt>
+File: img/centralizadores_standoff.png Graphic file (type png)
+<use img/centralizadores_standoff.png>
+Package pdftex.def Info: img/centralizadores_standoff.png  used on input line 5
+1.
+(pdftex.def)             Requested size: 318.59451pt x 135.36691pt.
+[14 <./img/Standoff1.png>]
+<img/Standoff_livro_Well.png, id=203, 283.81032pt x 323.70938pt>
+File: img/Standoff_livro_Well.png Graphic file (type png)
+<use img/Standoff_livro_Well.png>
+Package pdftex.def Info: img/Standoff_livro_Well.png  used on input line 63.
+(pdftex.def)             Requested size: 341.35275pt x 389.37791pt.
+ [15 <./img/centralizadores_standoff.png>]
+(text/2b-objs.tex [16 <./img/Standoff_livro_Well.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+4.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)))
+(text/3-metod.tex [17] (text/3a-malhas.tex
+<img/broca.png, id=228, 173.448pt x 440.1243pt>
+File: img/broca.png Graphic file (type png)
+<use img/broca.png>
+Package pdftex.def Info: img/broca.png  used on input line 6.
+(pdftex.def)             Requested size: 104.0696pt x 264.07661pt.
+<img/casing1.png, id=231, 71.51718pt x 281.55188pt>
+File: img/casing1.png Graphic file (type png)
+<use img/casing1.png>
+Package pdftex.def Info: img/casing1.png  used on input line 15.
+(pdftex.def)             Requested size: 50.06168pt x 197.08496pt.
+ [18 <./img/broca.png>]
+<img/broca_petroleo_formacao_lisa_autocad2.png, id=243, 89.58469pt x 352.31625p
+t>
+File: img/broca_petroleo_formacao_lisa_autocad2.png Graphic file (type png)
+<use img/broca_petroleo_formacao_lisa_autocad2.png>
+Package pdftex.def Info: img/broca_petroleo_formacao_lisa_autocad2.png  used on
+ input line 23.
+(pdftex.def)             Requested size: 62.70883pt x 246.61969pt.
+
+
+LaTeX Warning: Citation `Gmsh' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Citation `Gmsh' on page 19 undefined on input line 28.
+
+
+LaTeX Warning: Citation `GmshDocuments' on page 19 undefined on input line 28.
+
+[19 <./img/casing1.png> <./img/broca_petroleo_formacao_lisa_autocad2.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
+2.
+
+(C:\Users\silas\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<img/lisa.png, id=255, 113.67468pt x 493.0922pt>
+File: img/lisa.png Graphic file (type png)
+<use img/lisa.png>
+Package pdftex.def Info: img/lisa.png  used on input line 42.
+(pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
+<img/lisa_standoff.png, id=256, 113.67468pt x 493.0922pt>
+File: img/lisa_standoff.png Graphic file (type png)
+<use img/lisa_standoff.png>
+Package pdftex.def Info: img/lisa_standoff.png  used on input line 50.
+(pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
+<img/lisa_sapata.png, id=257, 459.96844pt x 493.0922pt>
+File: img/lisa_sapata.png Graphic file (type png)
+<use img/lisa_sapata.png>
+Package pdftex.def Info: img/lisa_sapata.png  used on input line 54.
+(pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
+<img/lisa_standoff_sapata.png, id=258, 459.96844pt x 493.0922pt>
+File: img/lisa_standoff_sapata.png Graphic file (type png)
+<use img/lisa_standoff_sapata.png>
+Package pdftex.def Info: img/lisa_standoff_sapata.png  used on input line 62.
+(pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
+ [20]
+<img/rugosa.png, id=267, 113.67468pt x 493.0922pt>
+File: img/rugosa.png Graphic file (type png)
+<use img/rugosa.png>
+Package pdftex.def Info: img/rugosa.png  used on input line 72.
+(pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
+<img/rugosa_standoff.png, id=268, 113.67468pt x 493.0922pt>
+File: img/rugosa_standoff.png Graphic file (type png)
+<use img/rugosa_standoff.png>
+Package pdftex.def Info: img/rugosa_standoff.png  used on input line 80.
+(pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
+<img/Rugosa_sapata.png, id=269, 459.96844pt x 493.0922pt>
+File: img/Rugosa_sapata.png Graphic file (type png)
+<use img/Rugosa_sapata.png>
+Package pdftex.def Info: img/Rugosa_sapata.png  used on input line 84.
+(pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
+<img/Rugosa_standoff_sapata.png, id=270, 459.96844pt x 493.0922pt>
+File: img/Rugosa_standoff_sapata.png Graphic file (type png)
+<use img/Rugosa_standoff_sapata.png>
+Package pdftex.def Info: img/Rugosa_standoff_sapata.png  used on input line 92.
+
+(pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
+
+[21 <./img/lisa.png> <./img/lisa_standoff.png> <./img/lisa_sapata.png> <./img/l
+isa_standoff_sapata.png>]
+<img/elements.png, id=282, 256.70906pt x 94.85437pt>
+File: img/elements.png Graphic file (type png)
+<use img/elements.png>
+Package pdftex.def Info: img/elements.png  used on input line 118.
+(pdftex.def)             Requested size: 256.70842pt x 94.85413pt.
+) (text/3b-fenics.tex [22 <./img/rugosa.png> <./img/rugosa_standoff.png> <./img
+/Rugosa_sapata.png> <./img/Rugosa_standoff_sapata.png>]
+
+LaTeX Warning: Citation `Fenics' on page 23 undefined on input line 3.
+
+<img/esquema_dolfin.png, id=298, 287.57437pt x 237.13594pt>
+File: img/esquema_dolfin.png Graphic file (type png)
+<use img/esquema_dolfin.png>
+Package pdftex.def Info: img/esquema_dolfin.png  used on input line 8.
+(pdftex.def)             Requested size: 287.57367pt x 237.13535pt.
+) (text/3c-nseq.tex [23 <./img/elements.png>]
+
+LaTeX Warning: Citation `WOLFRAM' on page 24 undefined on input line 4.
+
+
+LaTeX Warning: Citation `MOLON' on page 24 undefined on input line 18.
+
+[24 <./img/esquema_dolfin.png>]) (text/3d-discret.tex
+
+LaTeX Warning: Citation `CHORIN' on page 25 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Goda' on page 25 undefined on input line 3.
+
+[25]) (text/3e-implem.tex Excluding 'comment' comment.
+Excluding 'comment' comment. [26]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 74.
+ [27] [28]
+Overfull \hbox (10.16017pt too wide) in paragraph at lines 175--176
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.16017pt too wide) in paragraph at lines 180--181
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.21013pt too wide) in paragraph at lines 184--186
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[29]) (text/3f-varredura.tex
+
+LaTeX Warning: Citation `Monica' on page 30 undefined on input line 3.
+
+
+LaTeX Warning: Citation `ARANHA' on page 30 undefined on input line 3.
+
+<img/eta-esquema.pdf, id=476, 422.57875pt x 224.84pt>
+File: img/eta-esquema.pdf Graphic file (type pdf)
+<use img/eta-esquema.pdf>
+Package pdftex.def Info: img/eta-esquema.pdf  used on input line 8.
+(pdftex.def)             Requested size: 338.06345pt x 179.87224pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[30] [31 <./img/eta-esquema.pdf>])) (text/4-results.tex [32] (text/4a-pvci.tex
+
+LaTeX Warning: Citation `ARANHA' on page 33 undefined on input line 3.
+
+
+LaTeX Warning: Citation `Lupyana' on page 33 undefined on input line 3.
+
+) (text/4b-solver.tex) (text/4c-sims.tex [33]
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_saida_pa
+raview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:36
+(epstopdf)                    size: 1471065 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_saida_pa
+raview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:40
+(epstopdf)                    size: 92870 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_saida_paraview-eps-converted-to.pdf img/perfil_vel/liso/perfil_de
+_vel_saida_paraview.eps>
+(epstopdf)             \includegraphics on input line 10.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_saida_par
+aview-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_saida_paraview.eps
+)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_saida_pa
+raview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:27
+(epstopdf)                    size: 92870 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_saida_pa
+raview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
+st version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf, id=519,
+ 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf Gra
+phic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-c
+onverted-to.pdf  used on input line 10.
+(pdftex.def)             Requested size: 255.95563pt x 238.8919pt.
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_0.5s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:36
+(epstopdf)                    size: 1471065 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:42
+(epstopdf)                    size: 132738 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf img/perfil_vel/liso/per
+fil_de_vel_sapata_paraview_0.5s.eps>
+(epstopdf)             \includegraphics on input line 19.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_sapata_pa
+raview_0.5s-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_sapata_parav
+iew_0.5s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:29
+(epstopdf)                    size: 132738 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
+ at most version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf, i
+d=521, 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.p
+df Graphic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pd
+f>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s
+-eps-converted-to.pdf  used on input line 19.
+(pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_10s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:36
+(epstopdf)                    size: 1471065 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:44
+(epstopdf)                    size: 123663 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf img/perfil_vel/liso/perf
+il_de_vel_sapata_paraview_10s.eps>
+(epstopdf)             \includegraphics on input line 22.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_sapata_pa
+raview_10s-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_sapata_paravi
+ew_10s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:32
+(epstopdf)                    size: 123663 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_p
+araview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but 
+at most version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf, id
+=522, 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pd
+f Graphic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf
+>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-
+eps-converted-to.pdf  used on input line 22.
+(pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
+[34 <./img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>]
+<img/perfil_vel/liso/perfil_velocidade_liso_100.png, id=537, 387.4475pt x 279.0
+425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_100.png Graphic file (type png
+)
+<use img/perfil_vel/liso/perfil_velocidade_liso_100.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_100.png  us
+ed on input line 32.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_300.png, id=538, 387.4475pt x 279.0
+425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_300.png Graphic file (type png
+)
+<use img/perfil_vel/liso/perfil_velocidade_liso_300.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_300.png  us
+ed on input line 35.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_700.png, id=539, 393.47pt x 279.042
+5pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_700.png Graphic file (type png
+)
+<use img/perfil_vel/liso/perfil_velocidade_liso_700.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_700.png  us
+ed on input line 39.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_1000.png, id=540, 393.47pt x 279.04
+25pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_1000.png Graphic file (type pn
+g)
+<use img/perfil_vel/liso/perfil_velocidade_liso_1000.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_1000.png  u
+sed on input line 42.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+
+Excluding 'comment' comment.
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_saida_st
+andoff_paraview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1471136 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_saida_st
+andoff_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:46
+(epstopdf)                    size: 97043 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_saida_standoff_paraview-eps-converted-to.pdf img/perfil_vel/liso/
+perfil_de_vel_saida_standoff_paraview.eps>
+(epstopdf)             \includegraphics on input line 73.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_saida_sta
+ndoff_paraview-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_saida_sta
+ndoff_paraview.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_saida_st
+andoff_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:34
+(epstopdf)                    size: 97043 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_saida_st
+andoff_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, 
+but at most version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-to.pdf
+, id=542, 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-t
+o.pdf Graphic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-to
+.pdf>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_saida_standoff_parav
+iew-eps-converted-to.pdf  used on input line 73.
+(pdftex.def)             Requested size: 255.95563pt x 238.8919pt.
+[35 <./img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.
+pdf> <./img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.
+pdf> <./img/perfil_vel/liso/perfil_velocidade_liso_100.png> <./img/perfil_vel/l
+iso/perfil_velocidade_liso_300.png> <./img/perfil_vel/liso/perfil_velocidade_li
+so_700.png> <./img/perfil_vel/liso/perfil_velocidade_liso_1000.png>]
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_0.5s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:36
+(epstopdf)                    size: 1471136 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:48
+(epstopdf)                    size: 127744 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_sapata_standoff_paraview_0.5s-eps-converted-to.pdf img/perfil_vel
+/liso/perfil_de_vel_sapata_standoff_paraview_0.5s.eps>
+(epstopdf)             \includegraphics on input line 83.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_sapata_st
+andoff_paraview_0.5s-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_sap
+ata_standoff_paraview_0.5s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:36
+(epstopdf)                    size: 127744 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-converted-
+to.pdf, id=568, 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-conve
+rted-to.pdf Graphic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-conver
+ted-to.pdf>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_para
+view_0.5s-eps-converted-to.pdf  used on input line 83.
+(pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
+Package epstopdf Info: Source file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_10s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1471136 bytes
+(epstopdf)             Output file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:50
+(epstopdf)                    size: 116304 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/liso/
+perfil_de_vel_sapata_standoff_paraview_10s-eps-converted-to.pdf img/perfil_vel/
+liso/perfil_de_vel_sapata_standoff_paraview_10s.eps>
+(epstopdf)             \includegraphics on input line 86.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/liso/perfil_de_vel_sapata_st
+andoff_paraview_10s-eps-converted-to.pdf img/perfil_vel/liso/perfil_de_vel_sapa
+ta_standoff_paraview_10s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:38
+(epstopdf)                    size: 116304 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_s
+tandoff_paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-converted-t
+o.pdf, id=569, 511.9125pt x 477.785pt>
+File: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conver
+ted-to.pdf Graphic file (type pdf)
+<use img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-convert
+ed-to.pdf>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_para
+view_10s-eps-converted-to.pdf  used on input line 86.
+(pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_s_100.png, id=570, 387.4475pt x 279
+.0425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_s_100.png Graphic file (type p
+ng)
+<use img/perfil_vel/liso/perfil_velocidade_liso_s_100.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_100.png  
+used on input line 95.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_s_300.png, id=571, 387.4475pt x 279
+.0425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_s_300.png Graphic file (type p
+ng)
+<use img/perfil_vel/liso/perfil_velocidade_liso_s_300.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_300.png  
+used on input line 98.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_s_700.png, id=572, 393.47pt x 279.0
+425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_s_700.png Graphic file (type p
+ng)
+<use img/perfil_vel/liso/perfil_velocidade_liso_s_700.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_700.png  
+used on input line 102.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+<img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png, id=573, 393.47pt x 279.
+0425pt>
+File: img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png Graphic file (type 
+png)
+<use img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png>
+Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png 
+ used on input line 105.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+[36 <./img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-
+to.pdf> <./img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-
+converted-to.pdf> <./img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview
+_10s-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/campo_press/liso/campo_de_pres_paravie
+w.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821187 bytes
+(epstopdf)             Output file: <img/campo_press/liso/campo_de_pres_paravie
+w-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:53
+(epstopdf)                    size: 28349 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/campo_press/liso
+/campo_de_pres_paraview-eps-converted-to.pdf img/campo_press/liso/campo_de_pres
+_paraview.eps>
+(epstopdf)             \includegraphics on input line 115.
+runsystem(miktex-epstopdf --outfile=img/campo_press/liso/campo_de_pres_paraview
+-eps-converted-to.pdf img/campo_press/liso/campo_de_pres_paraview.eps)...execut
+ed safely (allowed).
+
+Package epstopdf Info: Result file: <img/campo_press/liso/campo_de_pres_paravie
+w-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:40
+(epstopdf)                    size: 28349 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/campo_press/liso/campo_de_pres_paravie
+w-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+<img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf, id=601, 634.
+37pt x 477.785pt>
+File: img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf Graphic 
+file (type pdf)
+<use img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf>
+Package pdftex.def Info: img/campo_press/liso/campo_de_pres_paraview-eps-conver
+ted-to.pdf  used on input line 115.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+Package epstopdf Info: Source file: <img/campo_press/liso/campo_de_pres_standof
+f_paraview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821187 bytes
+(epstopdf)             Output file: <img/campo_press/liso/campo_de_pres_standof
+f_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:55
+(epstopdf)                    size: 37122 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/campo_press/liso
+/campo_de_pres_standoff_paraview-eps-converted-to.pdf img/campo_press/liso/camp
+o_de_pres_standoff_paraview.eps>
+(epstopdf)             \includegraphics on input line 118.
+runsystem(miktex-epstopdf --outfile=img/campo_press/liso/campo_de_pres_standoff
+_paraview-eps-converted-to.pdf img/campo_press/liso/campo_de_pres_standoff_para
+view.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/campo_press/liso/campo_de_pres_standof
+f_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:43
+(epstopdf)                    size: 37122 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/campo_press/liso/campo_de_pres_standof
+f_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but a
+t most version <1.5> allowed
+<img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf, id=
+602, 634.37pt x 477.785pt>
+File: img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf
+ Graphic file (type pdf)
+<use img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf>
+
+Package pdftex.def Info: img/campo_press/liso/campo_de_pres_standoff_paraview-e
+ps-converted-to.pdf  used on input line 118.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+Excluding 'comment' comment.
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+paraview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821203 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:57
+(epstopdf)                    size: 113419 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_saida_paraview-eps-converted-to.pdf img/perfil_vel/rugoso/perfi
+l_de_vel_saida_paraview.eps>
+(epstopdf)             \includegraphics on input line 152.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_saida_p
+araview-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel_saida_paraview
+.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:45
+(epstopdf)                    size: 113419 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_saida_
+paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
+most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf, id=60
+4, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf G
+raphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps
+-converted-to.pdf  used on input line 152.
+(pdftex.def)             Requested size: 317.18422pt x 238.8919pt.
+[37 <./img/perfil_vel/liso/perfil_velocidade_liso_s_100.png> <./img/perfil_vel/
+liso/perfil_velocidade_liso_s_300.png> <./img/perfil_vel/liso/perfil_velocidade
+_liso_s_700.png> <./img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png> <./i
+mg/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf> <./img/campo_p
+ress/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_0.5s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821203 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:08:59
+(epstopdf)                    size: 138903 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf img/perfil_vel/rugoso
+/perfil_de_vel_sapata_paraview_0.5s.eps>
+(epstopdf)             \includegraphics on input line 162.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_sapata_
+paraview_0.5s-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel_sapata_p
+araview_0.5s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_0.5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:47
+(epstopdf)                    size: 138903 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, b
+ut at most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf,
+ id=635, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to
+.pdf Graphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.
+pdf>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.
+5s-eps-converted-to.pdf  used on input line 162.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_10s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821203 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:02
+(epstopdf)                    size: 127213 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf img/perfil_vel/rugoso/
+perfil_de_vel_sapata_paraview_10s.eps>
+(epstopdf)             \includegraphics on input line 165.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_sapata_
+paraview_10s-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel_sapata_pa
+raview_10s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:49
+(epstopdf)                    size: 127213 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
+_paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, bu
+t at most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf, 
+id=636, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.
+pdf Graphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.p
+df>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10
+s-eps-converted-to.pdf  used on input line 165.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png, id=638, 387.4475pt x 2
+79.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png Graphic file (type
+ png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png
+  used on input line 176.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png, id=639, 387.4475pt x 2
+79.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png Graphic file (type
+ png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png
+  used on input line 179.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png, id=640, 401.5pt x 279.
+0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png Graphic file (type
+ png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png
+  used on input line 183.
+(pdftex.def)             Requested size: 191.15671pt x 132.85738pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png, id=641, 393.47pt x 27
+9.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png Graphic file (typ
+e png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.pn
+g  used on input line 186.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+[38 <./img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>
+ <./img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.p
+df> <./img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to
+.pdf>] Excluding 'comment' comment.
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+standoff_paraview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821205 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+standoff_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:04
+(epstopdf)                    size: 107548 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_saida_standoff_paraview-eps-converted-to.pdf img/perfil_vel/rug
+oso/perfil_de_vel_saida_standoff_paraview.eps>
+(epstopdf)             \includegraphics on input line 218.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_saida_s
+tandoff_paraview-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel_saida
+_standoff_paraview.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_saida_
+standoff_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:52
+(epstopdf)                    size: 107548 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_saida_
+standoff_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>
+, but at most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted-to.p
+df, id=671, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted
+-to.pdf Graphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted-
+to.pdf>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_par
+aview-eps-converted-to.pdf  used on input line 218.
+(pdftex.def)             Requested size: 317.18422pt x 238.8919pt.
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_0_5s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821205 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_0_5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:06
+(epstopdf)                    size: 135131 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-converted-to.pdf img/perfil_v
+el/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s.eps>
+(epstopdf)             \includegraphics on input line 227.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_sapata_
+standoff_paraview_0_5s-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel
+_sapata_standoff_paraview_0_5s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_0_5s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:54
+(epstopdf)                    size: 135131 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_0_5s-eps-converted-to.pdf): PDF inclusion: found PDF version
+ <1.7>, but at most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-converte
+d-to.pdf, id=674, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-con
+verted-to.pdf Graphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-conv
+erted-to.pdf>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_pa
+raview_0_5s-eps-converted-to.pdf  used on input line 227.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+Package epstopdf Info: Source file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_10s.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821205 bytes
+(epstopdf)             Output file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:08
+(epstopdf)                    size: 125311 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/perfil_vel/rugos
+o/perfil_de_vel_sapata_standoff_paraview_10s-eps-converted-to.pdf img/perfil_ve
+l/rugoso/perfil_de_vel_sapata_standoff_paraview_10s.eps>
+(epstopdf)             \includegraphics on input line 230.
+runsystem(miktex-epstopdf --outfile=img/perfil_vel/rugoso/perfil_de_vel_sapata_
+standoff_paraview_10s-eps-converted-to.pdf img/perfil_vel/rugoso/perfil_de_vel_
+sapata_standoff_paraview_10s.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_10s-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:56
+(epstopdf)                    size: 125311 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
+_standoff_paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-converted
+-to.pdf, id=675, 634.37pt x 477.785pt>
+File: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conv
+erted-to.pdf Graphic file (type pdf)
+<use img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conve
+rted-to.pdf>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_pa
+raview_10s-eps-converted-to.pdf  used on input line 230.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+[39 <./img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png> <./img/perfil_ve
+l/rugoso/perfil_velocidade_rugoso_300.png> <./img/perfil_vel/rugoso/perfil_velo
+cidade_rugoso_700.png> <./img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.p
+ng> <./img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converte
+d-to.pdf>]
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png, id=692, 387.4475pt x
+ 279.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png Graphic file (ty
+pe png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.p
+ng  used on input line 240.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png, id=693, 387.4475pt x
+ 279.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png Graphic file (ty
+pe png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.p
+ng  used on input line 243.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png, id=694, 401.5pt x 27
+9.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png Graphic file (ty
+pe png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.p
+ng  used on input line 247.
+(pdftex.def)             Requested size: 191.15671pt x 132.85738pt.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png, id=695, 393.47pt x 
+279.0425pt>
+File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png Graphic file (t
+ype png)
+<use img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png>
+Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.
+png  used on input line 250.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+Package epstopdf Info: Source file: <img/campo_press/rugoso/campo_de_pres_parav
+iew.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821187 bytes
+(epstopdf)             Output file: <img/campo_press/rugoso/campo_de_pres_parav
+iew-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:11
+(epstopdf)                    size: 31643 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/campo_press/rugo
+so/campo_de_pres_paraview-eps-converted-to.pdf img/campo_press/rugoso/campo_de_
+pres_paraview.eps>
+(epstopdf)             \includegraphics on input line 260.
+runsystem(miktex-epstopdf --outfile=img/campo_press/rugoso/campo_de_pres_paravi
+ew-eps-converted-to.pdf img/campo_press/rugoso/campo_de_pres_paraview.eps)...ex
+ecuted safely (allowed).
+
+Package epstopdf Info: Result file: <img/campo_press/rugoso/campo_de_pres_parav
+iew-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:10:59
+(epstopdf)                    size: 31643 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/campo_press/rugoso/campo_de_pres_parav
+iew-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
+version <1.5> allowed
+<img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf, id=697, 63
+4.37pt x 477.785pt>
+File: img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf Graphi
+c file (type pdf)
+<use img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf>
+Package pdftex.def Info: img/campo_press/rugoso/campo_de_pres_paraview-eps-conv
+erted-to.pdf  used on input line 260.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+Package epstopdf Info: Source file: <img/campo_press/rugoso/campo_de_pres_stand
+off_paraview.eps>
+(epstopdf)                    date: 2022-10-12 14:43:38
+(epstopdf)                    size: 1821192 bytes
+(epstopdf)             Output file: <img/campo_press/rugoso/campo_de_pres_stand
+off_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:09:13
+(epstopdf)                    size: 32512 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=img/campo_press/rugo
+so/campo_de_pres_standoff_paraview-eps-converted-to.pdf img/campo_press/rugoso/
+campo_de_pres_standoff_paraview.eps>
+(epstopdf)             \includegraphics on input line 263.
+runsystem(miktex-epstopdf --outfile=img/campo_press/rugoso/campo_de_pres_stando
+ff_paraview-eps-converted-to.pdf img/campo_press/rugoso/campo_de_pres_standoff_
+paraview.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <img/campo_press/rugoso/campo_de_pres_stand
+off_paraview-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-10-12 13:11:01
+(epstopdf)                    size: 32512 bytes.
+
+
+pdfTeX warning: pdflatex.exe (file ./img/campo_press/rugoso/campo_de_pres_stand
+off_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
+ at most version <1.5> allowed
+<img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pdf, i
+d=698, 634.37pt x 477.785pt>
+File: img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.p
+df Graphic file (type pdf)
+<use img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pd
+f>
+Package pdftex.def Info: img/campo_press/rugoso/campo_de_pres_standoff_paraview
+-eps-converted-to.pdf  used on input line 263.
+(pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
+[40 <./img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-co
+nverted-to.pdf> <./img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview
+_10s-eps-converted-to.pdf> <./img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_
+100.png> <./img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png> <./img/pe
+rfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png> <./img/perfil_vel/rugoso/pe
+rfil_velocidade_rugoso_s_1000.png>] Excluding 'comment' comment. [41 <./img/cam
+po_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf> <./img/campo_press
+/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pdf>]
+<img/eta/eta_esquerdo_simetrico.png, id=757, 393.47pt x 279.0425pt>
+File: img/eta/eta_esquerdo_simetrico.png Graphic file (type png)
+<use img/eta/eta_esquerdo_simetrico.png>
+Package pdftex.def Info: img/eta/eta_esquerdo_simetrico.png  used on input line
+ 388.
+(pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
+<img/eta/eta_direito_simetrico.png, id=758, 387.4475pt x 279.0425pt>
+File: img/eta/eta_direito_simetrico.png Graphic file (type png)
+<use img/eta/eta_direito_simetrico.png>
+Package pdftex.def Info: img/eta/eta_direito_simetrico.png  used on input line 
+391.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/eta/eta_esquerdo_standoff.png, id=759, 387.4475pt x 279.0425pt>
+File: img/eta/eta_esquerdo_standoff.png Graphic file (type png)
+<use img/eta/eta_esquerdo_standoff.png>
+Package pdftex.def Info: img/eta/eta_esquerdo_standoff.png  used on input line 
+400.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+<img/eta/eta_direito_standoff.png, id=760, 387.4475pt x 279.0425pt>
+File: img/eta/eta_direito_standoff.png Graphic file (type png)
+<use img/eta/eta_direito_standoff.png>
+Package pdftex.def Info: img/eta/eta_direito_standoff.png  used on input line 4
+03.
+(pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
+))
+(text/5-concl.tex [42 <./img/eta/eta_esquerdo_simetrico.png> <./img/eta/eta_dir
+eito_simetrico.png>] [43 <./img/eta/eta_esquerdo_standoff.png> <./img/eta/eta_d
+ireito_standoff.png>]) [44] (refs.tex [45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+[]\T1/lmr/m/n/12 (+20) JANÚNCIO, Da-nilo. His-tó-ria: 'Pe-tró-leo é nosso' leva
+ à
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+\T1/lmr/m/n/12 (+20) cri-a-ção do mo-no-pó-lio. Fo-lha, 03/10/2003. Dis-po-ní-v
+el em:
+ []
+
+
+Overfull \hbox (18.06169pt too wide) in paragraph at lines 71--72
+\T1/lmr/m/n/12 (-20) https://www1.folha.uol.com.br/folha/especial/2003/petrobra
+s50anos/fj0310200303.shtml.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\T1/lmr/m/n/12 (+20) na-historia/5976/hoje-na-historia-1859-perfurado-o-primeir
+o-poco-de-petroleo-nos-
+ []
+
+) (postext/app.tex [47]
+Overfull \hbox (3.11021pt too wide) in paragraph at lines 42--43
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[48]
+Overfull \hbox (3.11021pt too wide) in paragraph at lines 73--75
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[49]
+Overfull \hbox (3.11021pt too wide) in paragraph at lines 83--86
+[][][][][][][][][][][][][][][][][] 
+ []
+
+[50]
+Overfull \hbox (3.11021pt too wide) in paragraph at lines 145--146
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[51] [52] [53]
+Overfull \hbox (10.16017pt too wide) in paragraph at lines 270--271
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (10.16017pt too wide) in paragraph at lines 272--274
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+[54]
+Overfull \hbox (45.40996pt too wide) in paragraph at lines 312--314
+[][][][][][][][][][][][][][] 
+ []
+
+[55]) [56] (tcc.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `tcc.out' has not changed.
+(rerunfilecheck)             Checksum: B345EB41205BDD8CF022731827D192B6;4643.
+ ) 
+Here is how much of TeX's memory you used:
+ 18952 strings out of 478338
+ 321045 string characters out of 2836699
+ 859843 words of memory out of 3000000
+ 36108 multiletter control sequences out of 15000+600000
+ 540549 words of font info for 181 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 87i,11n,91p,1499b,2100s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
+/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcirc
+le1.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmb
+x12.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmb
+x8.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
+i10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lme
+x10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
+i12.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
+i6.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
+8.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib
+10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr1
+0.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12
+.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.
+pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pf
+b><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><
+C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on tcc.pdf (56 pages, 3167853 bytes).
+PDF statistics:
+ 1386 PDF objects out of 1440 (max. 8388607)
+ 608 named destinations out of 1000 (max. 500000)
+ 37844 words of extra memory for PDF output out of 42996 (max. 10000000)
+

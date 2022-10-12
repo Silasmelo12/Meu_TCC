@@ -1,0 +1,57 @@
+\subsubsection{Formulação Variacional e Discretização das Equações}
+
+A formulação padrão de Galerkin para as ENS incompressíveis, baseada em polinômios interpoladores de mesma ordem para velocidade e pressão, apresenta instabilidades. Portanto, consideramos neste trabalho espaços de elementos finitos do tipo Taylor-Hood (P2/P1) para a discretização espacial, com polinômios interpoladores quadráticos para a velocidade e lineares para a pressão, além de um método de projeção \cite{CHORIN} conhecido como \emph{Esquema de Correção Incremental da Pressão}, ou IPCS, do inglês \emph{Incremental Pressure Correction Scheme} \cite{Goda}.
+
+A seguir, explicamos brevemente a formulação variacional, bem como a discretização temporal associadas às ENS descritas 
+na subseção \ref{subsec:nseq}. Detalhes podem ser encontrados em \cite{Langtangen}. Primeiramente, definimos o produto interno genérico
+\begin{equation}
+\langle v,w \rangle_{\Phi} = \int_{\Phi} v w \,d\Phi,
+\end{equation},
+para funções contínuas $v$ e $w$ definidas em $\Phi$. Neste texto, $\Phi = \Omega$ representa o interior do domínio onde as ENS são resolvidas e $\Phi = \partial \Omega$ representa o contorno.
+
+Para estabelecer a forma variacional para as ENS, algumas hipóteses matemáticas devem ser feitas sobre os campos de velocidade e pressão, entre elas a de continuidade, variação limitada e integrabilidade. Em linhas gerais, devemos buscar uma solução aproximada para as incógnitas $\boldsymbol{u}$ e $p$ a partir de uma forma ``enfraquecida'' que é obtida por meio de integrais ponderadas. 
+
+Escolhendo-se funções $\boldsymbol{v}$ e $q$, a primeira vetorial e a segunda escalar, para agirem como funções de ponderação, multiplicamos as Eqs. \eqref{eq:NavierStokes} e \eqref{eq:NavierStokes}, respectivamente, por $\boldsymbol{v}$ e $q$. Após integração por partes e algumas operações algébricas, chegamos à forma compacta 
+\begin{align}
+\label{eq:velocidadetentativa}
+	\langle \rho (\boldsymbol{u}^*-\boldsymbol{u}^n)/\Delta t, \boldsymbol{v} \rangle_{\Omega} 
+	+ \langle \rho \boldsymbol{u}^n \cdot \nabla \boldsymbol{u}^n, \boldsymbol{v} \rangle_{\Omega} 
+	+ \langle \sigma (\boldsymbol{u}^{n + \frac{1}{2}}, 	p^n),\boldsymbol{\epsilon}(\boldsymbol{v}) \rangle_{\Omega} + \nonumber \\
+	- \langle \boldsymbol{n}p^n,\boldsymbol{v} \rangle _ {\partial \Omega} 
+	+ \langle \mu \boldsymbol{n} \nabla \boldsymbol{u}^{n + \frac{1}{2}},\boldsymbol{v} \rangle_{\partial \Omega} 
+	+ \langle \rho^{n+1}, \boldsymbol{v} \rangle_{\partial \Omega}
+	=\boldsymbol{0},
+\end{align}
+que caracteriza a forma variacional já discretizada no tempo para um passo de tempo $\Delta t$. A Eq. \eqref{eq:velocidadetentativa} é, além disso, o primeiro passo do método ICPS, em que a velocidade tentativa $\boldsymbol{u}^*$ é uma estimativa que não obedece à restrição de divergência nula dada pela Eq.\eqref{eq:NavierStokesB}.
+
+A notação $\boldsymbol{u}^{n+\frac{1}{2}}$ sugere uma aproximação implícita para $\boldsymbol{u}$ avaliada no ponto médio temporal, ou seja,
+$$\boldsymbol{u}^{n+\frac{1}{2}} \approx (\boldsymbol{u}^n + \boldsymbol{u}^{n+1})/2.$$
+
+No segundo passo do método IPCS, calculamos a estimativa para a pressão resolvendo uma equação tipo Poisson usando a velocidade tentativa então calculada
+\begin{equation}\label{eq:pressure}
+	\langle \nabla p^{n+1} ,\nabla q \rangle_{\Omega} 
+	= \langle \nabla p^n , \nabla q\rangle_{\Omega} 
+	- \Delta t^{-1} \langle \nabla \cdot \boldsymbol{u}^{*},q \rangle_{\Omega},
+\end{equation}
+
+Agora que temos a nova pressão, basta calcular a velocidade corrigida $\boldsymbol{u}^{n+1}$, tal que $\nabla \cdot \boldsymbol{u}^{n+1} = 0$. Este é o terceira e último passo do método ICPS:
+\begin{equation}\label{eq:corrected_velocity}
+	\langle \boldsymbol{u}^{n+1}, \boldsymbol{v} \rangle_{\Omega} 
+	= \langle \boldsymbol{u}^*, \boldsymbol{v} \rangle_{\Omega} 
+	- \Delta t \langle \nabla (p^{n+1}-p^n), \boldsymbol{v} \rangle _{\Omega}.
+\end{equation}
+Em suma, para cada passo de tempo no processo iterativo de solução das ENS, as 3 equações acima são resolvidas por um processo de \textit{splitting} \cite{Langtangen}. 
+
+%\textcolor{red}{Qual formulação utilizar para resolver o problema, exemplo: Arbitrary Lagrangian Eulerian Variational Multi-scale formulation (ALE-VMS), petrov-galerkin,PSPG}
+
+%\textcolor{red}{O tamanho do passo de tempo é de suma importância em problemas que possuem dependência temporal, pois este influencia na solução a ser obtida, no tempo computacional, entre outros fatores. A fim de obter um passo de tempo adequado, foi utilizado o controlador Proporcional-Integral-Diferencial (PID) (VALLI; CAREY; COUTINHO, 2002) para as equações de Navier-Stokes}
+
+%Estas equações serão solucionadas utilizando a ferramenta FEniCS, para tal, deve-se seguir os seguintes passos.\cite{Logg}
+%\begin{enumerate}
+	%\item Identificar o PDE e as condições de contorno
+	%\item Reformular o problema de PDE como um problema variacional
+	%\item Construir um programa Python onde as fórmulas do problema variacional são codificadas, junto com as definições dos dados de entrada como $f$, $u_0$ e uma malha para $\Omega$ em (\ref{eq:NavierStokes}).
+	%\item Adicionar declarações no programa para resolver o problema variacional, computando quantidades derivadas, como $ \nabla \boldsymbol{u} $, e visualizando os resultados.
+%\end{enumerate}
+
+%Será discorrido cada um desses itens. Começando pelo primeiro item, o problema de PDE em questão é o já mencionado acima:\ref{eq:NavierStokes}, sendo assim, para completar o primeiro item da lista, as condições de contorno, é necessário entender melhor o domínio em que o problema reside.
