@@ -1,29 +1,29 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Remoção de fluido de perfuração por ação de colchões (lavador e espaçador) durante a cimentação primária de um poço de petróleo.}}{13}{figure.caption.8}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Seção transversal de um revestimento excêntrico.}}{14}{figure.caption.9}%
-\contentsline {figure}{\numberline {3}{\ignorespaces \textit {Standoff} menor do que 100\% entre dois centralizadores.}}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Seção transversal equivalente a um revestimento excêntrico. Fonte: \cite {Erik}\relax }}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Ilustração de uma perfuração de um poço de petróleo.}}{18}{figure.caption.12}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Representação esquemática de um poço de petróleo.}}{19}{figure.caption.13}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Representação dos contornos da malha.}}{19}{figure.caption.14}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Malhas da configuração $A$: anular e sapata.}}{21}{figure.caption.15}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Malhas da configuração $B$: anular e sapata.}}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Representação dos contornos da malha.}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Componentes mais relevantes da biblioteca DOLFIN.}}{24}{figure.caption.19}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Esquema representativo para cálculo de vazões nas configurações de poço não erodido ($A$) e poço erodido ($B$). Fonte: Autor.\relax }}{31}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $A_1$.}}{34}{figure.caption.21}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $A_1$. Fonte: autor\relax }}{35}{figure.caption.22}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Perfis de velocidade da geometria $A_1$ em 4 níveis distintos\relax }}{35}{figure.caption.23}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $A_2$. Fonte: autor\relax }}{36}{figure.caption.24}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $A_2$. Fonte: autor\relax }}{36}{figure.caption.25}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Perfis de velocidade da geometria $A_2$ em 4 níveis distintos\relax }}{37}{figure.caption.26}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Campo de pressão nas geometrias $A$. Fonte: autor\relax }}{37}{figure.caption.27}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $B_1$. Fonte: autor\relax }}{38}{figure.caption.28}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $B_1$. Fonte: autor\relax }}{38}{figure.caption.29}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Perfis de velocidade da geometria $B_1$ em 4 níveis distintos\relax }}{39}{figure.caption.30}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $B_2$. Fonte: autor\relax }}{39}{figure.caption.31}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e $10s$ na geometria $B_2$. Fonte: autor\relax }}{40}{figure.caption.32}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Perfis de velocidade da geometria $B_2$ para 4 níveis distintos\relax }}{40}{figure.caption.33}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Campo de pressão nas geometrias $B$. Fonte: autor\relax }}{41}{figure.caption.34}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Valores de $\eta $ para as geometrias com o valor de \textit {standoff} 100\% ($A_1$ e $B_1$). Fonte: autor\relax }}{42}{figure.caption.39}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Valores de $\eta $ para as geometrias com o valor de \textit {standoff} 50\% ($A_2$ e $B_2$). Fonte: autor\relax }}{43}{figure.caption.40}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Remoção de fluido de perfuração por ação de colchões (lavador e espaçador) durante a cimentação primária de um poço de petróleo.}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Seção transversal de um revestimento excêntrico.}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \textit {Standoff} menor do que 100\% entre dois centralizadores.}}{18}{figure.caption.12}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Seção transversal equivalente a um revestimento excêntrico. Fonte: \cite {Erik}\relax }}{19}{figure.caption.13}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Ilustração de uma perfuração de um poço de petróleo.}}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Representação esquemática de um poço de petróleo.}}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Representação dos contornos da malha.}}{22}{figure.caption.16}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Malhas da configuração $A$: anular e sapata.}}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Malhas da configuração $B$: anular e sapata.}}{25}{figure.caption.18}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Representação dos contornos da malha.}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Componentes mais relevantes da biblioteca DOLFIN.}}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Esquema representativo para cálculo de vazões nas configurações de poço não erodido ($A$) e poço erodido ($B$). Fonte: Autor.\relax }}{34}{figure.caption.22}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $A_1$.}}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $A_1$. Fonte: autor\relax }}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Perfis de velocidade da geometria $A_1$ em 4 níveis distintos\relax }}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $A_2$. Fonte: autor\relax }}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $A_2$. Fonte: autor\relax }}{39}{figure.caption.27}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Perfis de velocidade da geometria $A_2$ em 4 níveis distintos\relax }}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Campo de pressão nas geometrias $A$. Fonte: autor\relax }}{40}{figure.caption.29}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $B_1$. Fonte: autor\relax }}{41}{figure.caption.30}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e 10s na geometria $B_1$. Fonte: autor\relax }}{41}{figure.caption.31}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Perfis de velocidade da geometria $B_1$ em 4 níveis distintos\relax }}{42}{figure.caption.32}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Campo de velocidade na saída do espaço anular no tempo de 10s na geometria $B_2$. Fonte: autor\relax }}{42}{figure.caption.33}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Campo de velocidade na sapata no tempo de 0.5s e $10s$ na geometria $B_2$. Fonte: autor\relax }}{43}{figure.caption.34}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Perfis de velocidade da geometria $B_2$ para 4 níveis distintos\relax }}{43}{figure.caption.35}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Campo de pressão nas geometrias $B$. Fonte: autor\relax }}{44}{figure.caption.36}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Valores de $\eta $ para as geometrias com o valor de \textit {standoff} 100\% ($A_1$ e $B_1$). Fonte: autor\relax }}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Valores de $\eta $ para as geometrias com o valor de \textit {standoff} 50\% ($A_2$ e $B_2$). Fonte: autor\relax }}{46}{figure.caption.42}%

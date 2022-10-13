@@ -1,25 +1,25 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {section}{\numberline {1}INTRODUÇÃO}{10}{section.1}%
-\contentsline {section}{\numberline {2}REVISÃO BIBLIOGRÁFICA}{12}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Mecânica dos Fluidos Aplicada à Engenharia de Poços de Petróleo}{12}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Colchões}{12}{subsubsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.2}Excentricidade do Tubo de Revestimento}{13}{subsubsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.2}Objetivos de Pesquisa}{16}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Objetivo Geral}{17}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Objetivos Específicos}{17}{subsubsection.2.2.2}%
-\contentsline {section}{\numberline {3}METODOLOGIA}{18}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Geração de Malhas}{18}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}A Biblioteca FEniCS}{23}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Equações de Navier Stokes}{24}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Formulação Variacional e Discretização das Equações}{25}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Implementação Computacional}{26}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Quantificação da Eficiência de Varrido}{30}{subsection.3.4}%
-\contentsline {section}{\numberline {4}RESULTADOS E DISCUSSÃO}{33}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Posicionamento do Problema-Base}{33}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Configurações do Resolvedor Numérico}{33}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Simulações Numéricas}{34}{subsection.4.3}%
-\contentsline {subsubsection}{\numberline {4.3.1}Configurações sem Erosões}{34}{subsubsection.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.3.2}Configurações com Erosões}{37}{subsubsection.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.3.3}Análise de eficiência de varrido}{41}{subsubsection.4.3.3}%
-\contentsline {section}{\numberline {5}CONCLUSÃO}{44}{section.5}%
-\contentsline {section}{REFERÊNCIAS}{44}{section.5}%
+\contentsline {section}{\numberline {1}INTRODUÇÃO}{13}{section.1}%
+\contentsline {section}{\numberline {2}REVISÃO BIBLIOGRÁFICA}{15}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Mecânica dos Fluidos Aplicada à Engenharia de Poços de Petróleo}{15}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Colchões}{15}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Excentricidade do Tubo de Revestimento}{16}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Objetivos de Pesquisa}{19}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Objetivo Geral}{20}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Objetivos Específicos}{20}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}METODOLOGIA}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Geração de Malhas}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}A Biblioteca FEniCS}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Equações de Navier Stokes}{27}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Formulação Variacional e Discretização das Equações}{28}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Implementação Computacional}{29}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Quantificação da Eficiência de Varrido}{33}{subsection.3.4}%
+\contentsline {section}{\numberline {4}RESULTADOS E DISCUSSÃO}{36}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Posicionamento do Problema-Base}{36}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Configurações do Resolvedor Numérico}{36}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Simulações Numéricas}{37}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Configurações sem Erosões}{37}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Configurações com Erosões}{40}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Análise de eficiência de varrido}{44}{subsubsection.4.3.3}%
+\contentsline {section}{\numberline {5}CONCLUSÃO}{47}{section.5}%
+\contentsline {section}{REFERÊNCIAS}{47}{section.5}%
