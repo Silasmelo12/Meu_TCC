@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.12)  12 OCT 2022 15:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.10.12)  12 OCT 2022 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,19 +795,19 @@ File: img/remocao_fluido.png Graphic file (type png)
 Package pdftex.def Info: img/remocao_fluido.png  used on input line 26.
 (pdftex.def)             Requested size: 244.86848pt x 271.91994pt.
  [16 <./img/remocao_fluido.png>]
-<img/Standoff1.png, id=325, 267.24844pt x 265.74281pt>
+<img/Standoff1.png, id=324, 267.24844pt x 265.74281pt>
 File: img/Standoff1.png Graphic file (type png)
 <use img/Standoff1.png>
 Package pdftex.def Info: img/Standoff1.png  used on input line 44.
 (pdftex.def)             Requested size: 187.07263pt x 186.01869pt.
-<img/centralizadores_standoff.png, id=328, 726.3135pt x 308.5929pt>
+<img/centralizadores_standoff.png, id=327, 726.3135pt x 308.5929pt>
 File: img/centralizadores_standoff.png Graphic file (type png)
 <use img/centralizadores_standoff.png>
 Package pdftex.def Info: img/centralizadores_standoff.png  used on input line 5
 1.
 (pdftex.def)             Requested size: 318.59451pt x 135.36691pt.
  [17 <./img/Standoff1.png>]
-<img/Standoff_livro_Well.png, id=339, 283.81032pt x 323.70938pt>
+<img/Standoff_livro_Well.png, id=338, 283.81032pt x 323.70938pt>
 File: img/Standoff_livro_Well.png Graphic file (type png)
 <use img/Standoff_livro_Well.png>
 Package pdftex.def Info: img/Standoff_livro_Well.png  used on input line 63.
@@ -821,18 +821,18 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )))
 (text/3-metod.tex [20] (text/3a-malhas.tex
-<img/broca.png, id=362, 173.448pt x 440.1243pt>
+<img/broca.png, id=361, 173.448pt x 440.1243pt>
 File: img/broca.png Graphic file (type png)
 <use img/broca.png>
 Package pdftex.def Info: img/broca.png  used on input line 6.
 (pdftex.def)             Requested size: 104.0696pt x 264.07661pt.
-<img/casing1.png, id=365, 71.51718pt x 281.55188pt>
+<img/casing1.png, id=364, 71.51718pt x 281.55188pt>
 File: img/casing1.png Graphic file (type png)
 <use img/casing1.png>
 Package pdftex.def Info: img/casing1.png  used on input line 15.
 (pdftex.def)             Requested size: 50.06168pt x 197.08496pt.
  [21 <./img/broca.png>]
-<img/broca_petroleo_formacao_lisa_autocad2.png, id=375, 89.58469pt x 352.31625p
+<img/broca_petroleo_formacao_lisa_autocad2.png, id=374, 89.58469pt x 352.31625p
 t>
 File: img/broca_petroleo_formacao_lisa_autocad2.png Graphic file (type png)
 <use img/broca_petroleo_formacao_lisa_autocad2.png>
@@ -850,43 +850,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<img/lisa.png, id=389, 113.67468pt x 493.0922pt>
+<img/lisa.png, id=388, 113.67468pt x 493.0922pt>
 File: img/lisa.png Graphic file (type png)
 <use img/lisa.png>
 Package pdftex.def Info: img/lisa.png  used on input line 42.
 (pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
-<img/lisa_standoff.png, id=390, 113.67468pt x 493.0922pt>
+<img/lisa_standoff.png, id=389, 113.67468pt x 493.0922pt>
 File: img/lisa_standoff.png Graphic file (type png)
 <use img/lisa_standoff.png>
 Package pdftex.def Info: img/lisa_standoff.png  used on input line 50.
 (pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
-<img/lisa_sapata.png, id=391, 459.96844pt x 493.0922pt>
+<img/lisa_sapata.png, id=390, 459.96844pt x 493.0922pt>
 File: img/lisa_sapata.png Graphic file (type png)
 <use img/lisa_sapata.png>
 Package pdftex.def Info: img/lisa_sapata.png  used on input line 54.
 (pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
-<img/lisa_standoff_sapata.png, id=392, 459.96844pt x 493.0922pt>
+<img/lisa_standoff_sapata.png, id=391, 459.96844pt x 493.0922pt>
 File: img/lisa_standoff_sapata.png Graphic file (type png)
 <use img/lisa_standoff_sapata.png>
 Package pdftex.def Info: img/lisa_standoff_sapata.png  used on input line 62.
 (pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
  [23]
-<img/rugosa.png, id=399, 113.67468pt x 493.0922pt>
+<img/rugosa.png, id=398, 113.67468pt x 493.0922pt>
 File: img/rugosa.png Graphic file (type png)
 <use img/rugosa.png>
 Package pdftex.def Info: img/rugosa.png  used on input line 72.
 (pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
-<img/rugosa_standoff.png, id=400, 113.67468pt x 493.0922pt>
+<img/rugosa_standoff.png, id=399, 113.67468pt x 493.0922pt>
 File: img/rugosa_standoff.png Graphic file (type png)
 <use img/rugosa_standoff.png>
 Package pdftex.def Info: img/rugosa_standoff.png  used on input line 80.
 (pdftex.def)             Requested size: 45.51646pt x 197.43652pt.
-<img/Rugosa_sapata.png, id=401, 459.96844pt x 493.0922pt>
+<img/Rugosa_sapata.png, id=400, 459.96844pt x 493.0922pt>
 File: img/Rugosa_sapata.png Graphic file (type png)
 <use img/Rugosa_sapata.png>
 Package pdftex.def Info: img/Rugosa_sapata.png  used on input line 84.
 (pdftex.def)             Requested size: 136.54248pt x 146.37886pt.
-<img/Rugosa_standoff_sapata.png, id=402, 459.96844pt x 493.0922pt>
+<img/Rugosa_standoff_sapata.png, id=401, 459.96844pt x 493.0922pt>
 File: img/Rugosa_standoff_sapata.png Graphic file (type png)
 <use img/Rugosa_standoff_sapata.png>
 Package pdftex.def Info: img/Rugosa_standoff_sapata.png  used on input line 92.
@@ -895,14 +895,14 @@ Package pdftex.def Info: img/Rugosa_standoff_sapata.png  used on input line 92.
 
 [24 <./img/lisa.png> <./img/lisa_standoff.png> <./img/lisa_sapata.png> <./img/l
 isa_standoff_sapata.png>]
-<img/elements.png, id=414, 256.70906pt x 94.85437pt>
+<img/elements.png, id=413, 256.70906pt x 94.85437pt>
 File: img/elements.png Graphic file (type png)
 <use img/elements.png>
 Package pdftex.def Info: img/elements.png  used on input line 118.
 (pdftex.def)             Requested size: 256.70842pt x 94.85413pt.
 ) (text/3b-fenics.tex [25 <./img/rugosa.png> <./img/rugosa_standoff.png> <./img
 /Rugosa_sapata.png> <./img/Rugosa_standoff_sapata.png>]
-<img/esquema_dolfin.png, id=431, 287.57437pt x 237.13594pt>
+<img/esquema_dolfin.png, id=429, 287.57437pt x 237.13594pt>
 File: img/esquema_dolfin.png Graphic file (type png)
 <use img/esquema_dolfin.png>
 Package pdftex.def Info: img/esquema_dolfin.png  used on input line 8.
@@ -928,7 +928,7 @@ Overfull \hbox (17.21013pt too wide) in paragraph at lines 184--186
  []
 
 [32]) (text/3f-varredura.tex
-<img/eta-esquema.pdf, id=620, 422.57875pt x 224.84pt>
+<img/eta-esquema.pdf, id=617, 422.57875pt x 224.84pt>
 File: img/eta-esquema.pdf Graphic file (type pdf)
 <use img/eta-esquema.pdf>
 Package pdftex.def Info: img/eta-esquema.pdf  used on input line 8.
@@ -957,7 +957,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_saida_pa
 raview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-<img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf, id=665,
+<img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf, id=662,
  511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf Gra
 phic file (type pdf)
@@ -984,7 +984,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_p
 araview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf, i
-d=667, 511.9125pt x 477.785pt>
+d=664, 511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.p
 df Graphic file (type pdf)
 <use img/perfil_vel/liso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pd
@@ -1011,7 +1011,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_p
 araview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but 
 at most version <1.5> allowed
 <img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf, id
-=668, 511.9125pt x 477.785pt>
+=665, 511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pd
 f Graphic file (type pdf)
 <use img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf
@@ -1020,7 +1020,7 @@ Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_paraview_10s-
 eps-converted-to.pdf  used on input line 22.
 (pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
 [37 <./img/perfil_vel/liso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>]
-<img/perfil_vel/liso/perfil_velocidade_liso_100.png, id=682, 387.4475pt x 279.0
+<img/perfil_vel/liso/perfil_velocidade_liso_100.png, id=679, 387.4475pt x 279.0
 425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_100.png Graphic file (type png
 )
@@ -1028,7 +1028,7 @@ File: img/perfil_vel/liso/perfil_velocidade_liso_100.png Graphic file (type png
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_100.png  us
 ed on input line 32.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_300.png, id=683, 387.4475pt x 279.0
+<img/perfil_vel/liso/perfil_velocidade_liso_300.png, id=680, 387.4475pt x 279.0
 425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_300.png Graphic file (type png
 )
@@ -1036,7 +1036,7 @@ File: img/perfil_vel/liso/perfil_velocidade_liso_300.png Graphic file (type png
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_300.png  us
 ed on input line 35.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_700.png, id=684, 393.47pt x 279.042
+<img/perfil_vel/liso/perfil_velocidade_liso_700.png, id=681, 393.47pt x 279.042
 5pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_700.png Graphic file (type png
 )
@@ -1044,7 +1044,7 @@ File: img/perfil_vel/liso/perfil_velocidade_liso_700.png Graphic file (type png
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_700.png  us
 ed on input line 39.
 (pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_1000.png, id=685, 393.47pt x 279.04
+<img/perfil_vel/liso/perfil_velocidade_liso_1000.png, id=682, 393.47pt x 279.04
 25pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_1000.png Graphic file (type pn
 g)
@@ -1073,7 +1073,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_saida_st
 andoff_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, 
 but at most version <1.5> allowed
 <img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-to.pdf
-, id=687, 511.9125pt x 477.785pt>
+, id=684, 511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-t
 o.pdf Graphic file (type pdf)
 <use img/perfil_vel/liso/perfil_de_vel_saida_standoff_paraview-eps-converted-to
@@ -1105,7 +1105,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_s
 tandoff_paraview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <
 1.7>, but at most version <1.5> allowed
 <img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-converted-
-to.pdf, id=711, 511.9125pt x 477.785pt>
+to.pdf, id=708, 511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-conve
 rted-to.pdf Graphic file (type pdf)
 <use img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_0.5s-eps-conver
@@ -1132,7 +1132,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/liso/perfil_de_vel_sapata_s
 tandoff_paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1
 .7>, but at most version <1.5> allowed
 <img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-converted-t
-o.pdf, id=712, 511.9125pt x 477.785pt>
+o.pdf, id=709, 511.9125pt x 477.785pt>
 File: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conver
 ted-to.pdf Graphic file (type pdf)
 <use img/perfil_vel/liso/perfil_de_vel_sapata_standoff_paraview_10s-eps-convert
@@ -1140,7 +1140,7 @@ ed-to.pdf>
 Package pdftex.def Info: img/perfil_vel/liso/perfil_de_vel_sapata_standoff_para
 view_10s-eps-converted-to.pdf  used on input line 86.
 (pdftex.def)             Requested size: 191.15671pt x 178.41072pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_s_100.png, id=713, 387.4475pt x 279
+<img/perfil_vel/liso/perfil_velocidade_liso_s_100.png, id=710, 387.4475pt x 279
 .0425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_s_100.png Graphic file (type p
 ng)
@@ -1148,7 +1148,7 @@ ng)
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_100.png  
 used on input line 95.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_s_300.png, id=714, 387.4475pt x 279
+<img/perfil_vel/liso/perfil_velocidade_liso_s_300.png, id=711, 387.4475pt x 279
 .0425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_s_300.png Graphic file (type p
 ng)
@@ -1156,7 +1156,7 @@ ng)
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_300.png  
 used on input line 98.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_s_700.png, id=715, 393.47pt x 279.0
+<img/perfil_vel/liso/perfil_velocidade_liso_s_700.png, id=712, 393.47pt x 279.0
 425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_s_700.png Graphic file (type p
 ng)
@@ -1164,7 +1164,7 @@ ng)
 Package pdftex.def Info: img/perfil_vel/liso/perfil_velocidade_liso_s_700.png  
 used on input line 102.
 (pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
-<img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png, id=716, 393.47pt x 279.
+<img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png, id=713, 393.47pt x 279.
 0425pt>
 File: img/perfil_vel/liso/perfil_velocidade_liso_s_1000.png Graphic file (type 
 png)
@@ -1194,7 +1194,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./img/campo_press/liso/campo_de_pres_paravie
 w-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-<img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf, id=743, 634.
+<img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf, id=740, 634.
 37pt x 477.785pt>
 File: img/campo_press/liso/campo_de_pres_paraview-eps-converted-to.pdf Graphic 
 file (type pdf)
@@ -1221,7 +1221,7 @@ pdfTeX warning: pdflatex.exe (file ./img/campo_press/liso/campo_de_pres_standof
 f_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but a
 t most version <1.5> allowed
 <img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf, id=
-744, 634.37pt x 477.785pt>
+741, 634.37pt x 477.785pt>
 File: img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf
  Graphic file (type pdf)
 <use img/campo_press/liso/campo_de_pres_standoff_paraview-eps-converted-to.pdf>
@@ -1249,7 +1249,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_saida_
 paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at 
 most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf, id=74
-6, 634.37pt x 477.785pt>
+3, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf G
 raphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_saida_paraview-eps-converted-to.pdf>
@@ -1280,7 +1280,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
 _paraview_0.5s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.pdf,
- id=773, 634.37pt x 477.785pt>
+ id=770, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to
 .pdf Graphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_0.5s-eps-converted-to.
@@ -1307,7 +1307,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
 _paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, bu
 t at most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.pdf, 
-id=774, 634.37pt x 477.785pt>
+id=771, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.
 pdf Graphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10s-eps-converted-to.p
@@ -1315,7 +1315,7 @@ df>
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_de_vel_sapata_paraview_10
 s-eps-converted-to.pdf  used on input line 165.
 (pdftex.def)             Requested size: 191.15671pt x 143.97087pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png, id=776, 387.4475pt x 2
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png, id=773, 387.4475pt x 2
 79.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png Graphic file (type
  png)
@@ -1323,7 +1323,7 @@ File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png Graphic file (type
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_100.png
   used on input line 176.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png, id=777, 387.4475pt x 2
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png, id=774, 387.4475pt x 2
 79.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png Graphic file (type
  png)
@@ -1331,7 +1331,7 @@ File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png Graphic file (type
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_300.png
   used on input line 179.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png, id=778, 401.5pt x 279.
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png, id=775, 401.5pt x 279.
 0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png Graphic file (type
  png)
@@ -1339,7 +1339,7 @@ File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png Graphic file (type
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_700.png
   used on input line 183.
 (pdftex.def)             Requested size: 191.15671pt x 132.85738pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png, id=779, 393.47pt x 27
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png, id=776, 393.47pt x 27
 9.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.png Graphic file (typ
 e png)
@@ -1370,7 +1370,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_saida_
 standoff_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>
 , but at most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted-to.p
-df, id=806, 634.37pt x 477.785pt>
+df, id=803, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted
 -to.pdf Graphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converted-
@@ -1397,7 +1397,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
 _standoff_paraview_0_5s-eps-converted-to.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-converte
-d-to.pdf, id=809, 634.37pt x 477.785pt>
+d-to.pdf, id=806, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-con
 verted-to.pdf Graphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_0_5s-eps-conv
@@ -1424,7 +1424,7 @@ pdfTeX warning: pdflatex.exe (file ./img/perfil_vel/rugoso/perfil_de_vel_sapata
 _standoff_paraview_10s-eps-converted-to.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
 <img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-converted
--to.pdf, id=810, 634.37pt x 477.785pt>
+-to.pdf, id=807, 634.37pt x 477.785pt>
 File: img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conv
 erted-to.pdf Graphic file (type pdf)
 <use img/perfil_vel/rugoso/perfil_de_vel_sapata_standoff_paraview_10s-eps-conve
@@ -1437,7 +1437,7 @@ l/rugoso/perfil_velocidade_rugoso_300.png> <./img/perfil_vel/rugoso/perfil_velo
 cidade_rugoso_700.png> <./img/perfil_vel/rugoso/perfil_velocidade_rugoso_1000.p
 ng> <./img/perfil_vel/rugoso/perfil_de_vel_saida_standoff_paraview-eps-converte
 d-to.pdf>]
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png, id=827, 387.4475pt x
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png, id=824, 387.4475pt x
  279.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.png Graphic file (ty
 pe png)
@@ -1445,7 +1445,7 @@ pe png)
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_100.p
 ng  used on input line 240.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png, id=828, 387.4475pt x
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png, id=825, 387.4475pt x
  279.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.png Graphic file (ty
 pe png)
@@ -1453,7 +1453,7 @@ pe png)
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_300.p
 ng  used on input line 243.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png, id=829, 401.5pt x 27
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png, id=826, 401.5pt x 27
 9.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png Graphic file (ty
 pe png)
@@ -1461,7 +1461,7 @@ pe png)
 Package pdftex.def Info: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_700.p
 ng  used on input line 247.
 (pdftex.def)             Requested size: 191.15671pt x 132.85738pt.
-<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png, id=830, 393.47pt x 
+<img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png, id=827, 393.47pt x 
 279.0425pt>
 File: img/perfil_vel/rugoso/perfil_velocidade_rugoso_s_1000.png Graphic file (t
 ype png)
@@ -1487,7 +1487,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./img/campo_press/rugoso/campo_de_pres_parav
 iew-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most 
 version <1.5> allowed
-<img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf, id=832, 63
+<img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf, id=829, 63
 4.37pt x 477.785pt>
 File: img/campo_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf Graphi
 c file (type pdf)
@@ -1514,7 +1514,7 @@ pdfTeX warning: pdflatex.exe (file ./img/campo_press/rugoso/campo_de_pres_stand
 off_paraview-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but
  at most version <1.5> allowed
 <img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pdf, i
-d=833, 634.37pt x 477.785pt>
+d=830, 634.37pt x 477.785pt>
 File: img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.p
 df Graphic file (type pdf)
 <use img/campo_press/rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pd
@@ -1530,26 +1530,26 @@ rfil_vel/rugoso/perfil_velocidade_rugoso_s_700.png> <./img/perfil_vel/rugoso/pe
 rfil_velocidade_rugoso_s_1000.png>] Excluding 'comment' comment. [44 <./img/cam
 po_press/rugoso/campo_de_pres_paraview-eps-converted-to.pdf> <./img/campo_press
 /rugoso/campo_de_pres_standoff_paraview-eps-converted-to.pdf>]
-<img/eta/eta_esquerdo_simetrico.png, id=887, 393.47pt x 279.0425pt>
+<img/eta/eta_esquerdo_simetrico.png, id=883, 393.47pt x 279.0425pt>
 File: img/eta/eta_esquerdo_simetrico.png Graphic file (type png)
 <use img/eta/eta_esquerdo_simetrico.png>
 Package pdftex.def Info: img/eta/eta_esquerdo_simetrico.png  used on input line
  388.
 (pdftex.def)             Requested size: 191.15671pt x 135.56111pt.
-<img/eta/eta_direito_simetrico.png, id=888, 387.4475pt x 279.0425pt>
+<img/eta/eta_direito_simetrico.png, id=884, 387.4475pt x 279.0425pt>
 File: img/eta/eta_direito_simetrico.png Graphic file (type png)
 <use img/eta/eta_direito_simetrico.png>
 Package pdftex.def Info: img/eta/eta_direito_simetrico.png  used on input line 
 391.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
  [45]
-<img/eta/eta_esquerdo_standoff.png, id=893, 387.4475pt x 279.0425pt>
+<img/eta/eta_esquerdo_standoff.png, id=889, 387.4475pt x 279.0425pt>
 File: img/eta/eta_esquerdo_standoff.png Graphic file (type png)
 <use img/eta/eta_esquerdo_standoff.png>
 Package pdftex.def Info: img/eta/eta_esquerdo_standoff.png  used on input line 
 400.
 (pdftex.def)             Requested size: 191.15671pt x 137.67299pt.
-<img/eta/eta_direito_standoff.png, id=894, 387.4475pt x 279.0425pt>
+<img/eta/eta_direito_standoff.png, id=890, 387.4475pt x 279.0425pt>
 File: img/eta/eta_direito_standoff.png Graphic file (type png)
 <use img/eta/eta_direito_standoff.png>
 Package pdftex.def Info: img/eta/eta_direito_standoff.png  used on input line 4
@@ -1625,60 +1625,40 @@ Package rerunfilecheck Info: File `tcc.out' has not changed.
 (rerunfilecheck)             Checksum: B345EB41205BDD8CF022731827D192B6;4643.
  ) 
 Here is how much of TeX's memory you used:
- 18977 strings out of 478338
- 322452 string characters out of 2836699
+ 18972 strings out of 478338
+ 322369 string characters out of 2836699
  860843 words of memory out of 3000000
  36115 multiletter control sequences out of 15000+600000
  540535 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,11n,91p,1568b,2100s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{table.caption.41} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.20} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/
-Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/User
-s/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/User
-s/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/User
-s/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/User
-s/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/s
-ilas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcircle
-1.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx1
-2.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8
-.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbxi1
-0.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex1
-0.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi1
-2.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6
-.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.
-pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib10
-.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.
-pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.p
-fb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pf
-b><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb>
-<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C
-:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C
-:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C
-:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:
-/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (59 pages, 3192836 bytes).
+{C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Us
+ers/silas/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
+/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcirc
+le1.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmb
+x12.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmb
+x8.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx
+i10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lme
+x10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
+i12.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmm
+i6.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi
+8.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmib
+10.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr1
+0.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12
+.pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.
+pfb><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pf
+b><C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+<C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><
+C:/Users/silas/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on tcc.pdf (59 pages, 3193356 bytes).
 PDF statistics:
- 1499 PDF objects out of 1728 (max. 8388607)
- 618 named destinations out of 1000 (max. 500000)
+ 1494 PDF objects out of 1728 (max. 8388607)
+ 613 named destinations out of 1000 (max. 500000)
  37844 words of extra memory for PDF output out of 42996 (max. 10000000)
 
